@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+
+<suite name="CustomTestSkipAnnotation (Skip Testing) Suite">
+
+	<listeners>
+		<listener class-name="com.github.GandhiTC.java.MarkSkippedAnnotation.listeners.SkipMarkSkipped" />
+	</listeners>
+	
+	<test name="CustomTestSkipAnnotation (Skip Testing) Test" verbose="2">
+		<classes>
+			<class name="com.github.GandhiTC.java.MarkSkippedAnnotation.tests.TestSkipMarkSkipped" />
+		</classes>
+	</test>
+	
+</suite>
